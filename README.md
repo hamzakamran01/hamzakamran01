@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waves&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hamza%20Kamran&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Systems%20Architect%20%7C%20Agentic%20AI%20%26%20Applied%20ML&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://hamza-portfolio-mocha.vercel.app/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+production+AI+systems+for+real+clients;Founder+%40+Zaaric+AI+%E2%80%94+agentic+systems%2C+shipped;Architecting+RAG+%2B+agentic+pipelines+at+scale;CS+%2727+%40+PUCIT+%7C+Qimam+Fellow+(top+0.3%25)" alt="Typing SVG" />
