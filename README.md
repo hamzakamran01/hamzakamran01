@@ -1,163 +1,68 @@
-<div align="center">
+I design and ship production agentic AI systems. Founder of **Zaaric**, where I build RAG pipelines, autonomous agents, and automation infrastructure for clients across the US and EU. Currently building **HealthDost**, an AI health memory platform that is live with real users.
 
-<a href="https://hamza-portfolio-mocha.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+production+AI+systems+for+real+clients;Founder+%40+Zaaric+AI+%E2%80%94+agentic+systems+shipped;Architecting+RAG+%2B+agentic+pipelines+at+scale;CS+%2727+%40+PUCIT+%7C+Qimam+Fellow+(top+0.3%25)" alt="Typing SVG" />
-</a>
+My bias is toward systems that survive contact with production: grounded retrieval, deterministic guardrails around probabilistic components, and a cost per request that still works at scale.
 
-</div>
+## Now
 
-<br>
+- Architecting HealthDost's contextual memory layer: tiered profile compilation, fact supersession chains, and multi-session RAG chat
+- Leading delivery and US market expansion at Zaaric
+- Operations team, Qimam Fellowship Pakistan 2026, and mentor to the 2026 cohort
 
-## About
+## Selected work
 
-I design and ship **agentic AI systems** — not prototypes, production. Founder of **Zaaric AI**, an agency that has shipped 10+ AI systems for clients across the US and EU. Building **Sehat**, an AI-native health memory platform, in beta with real users. Third-year CS student at PUCIT, and a **Qimam Fellow** (top 0.3% nationally, McKinsey-vetted).
+**HealthDost** · AI health memory platform · *private, live with users*
 
-I care about execution over experimentation — most of what is below is running in production or in the hands of real users, not sitting in a tutorial repo.
+Ingests medical documents, including scanned and hybrid records, through a vision triage, extraction, and structured parsing pipeline, then commits them to a pgvector event timeline that answers patient questions over RAG with strict anti-hallucination grounding. A separate trend engine evaluates 14 biomarkers against deterministic threshold rules and escalates alerts with no LLM in the decision path, so the model explains the finding but never decides it.
 
-<br>
+`Next.js 16` `Supabase + pgvector` `GPT-4o` `LangChain` `Vercel Cron`
 
-## Currently
+**Zaaric** · AI systems agency · *private client work*
 
-* 🏗️ Architecting Sehat's conversational onboarding and long-term memory layer
-* 📈 Running Zaaric's outbound growth infrastructure for US market expansion
-* 🎓 Qimam Fellow, Class of 2025 — top 0.3% nationally, McKinsey-vetted selection
-* 🏛️ Punjab Delegate, National Youth Summit 2025
-* 🧑‍💻 President, FCIT Developers Club · Associate Secretary, University of Punjab Debating Society
+10+ production systems delivered for clients in the US and EU: RAG assistants, internal copilots, lead generation automation, and SME back-office agents wired into CRM, invoicing, and inventory.
 
-<br>
+`OpenAI Agents SDK` `MCP` `FastAPI` `Next.js` `PostgreSQL` `RabbitMQ`
 
-## Featured Work
+**Digital Queue Management Platform** · *live since September 2024*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Real time queue orchestration for multi branch operations. Cut average customer wait time by 67%, GDPR compliant, WebSocket driven, running continuously since launch.
 
-### 🩺 Sehat (HealthDost)
+`NestJS` `React` `PostgreSQL` `Redis` `AWS`
 
-AI-native health memory platform. Ingests medical documents — including handwritten and hybrid records — through an OCR → triage → extraction → structured-parse pipeline, commits to a vector-searchable event timeline (pgvector), and answers patient queries through RAG with two-step LLM validation for temporal conflicts.
+[Live](https://digital-queueing-system.vercel.app) · [Code](https://github.com/hamzakamran01/digital-queueing-system)
 
-`Python` `FastAPI` `pgvector` `Supabase` `Claude API` `RAG`
+**AI Career Recommendation Engine** · *public research*
 
-**Status:** 🔒 Private — in beta with real users
+Hybrid recommender over the full O\*NET 29.0 occupational taxonomy: 40% classifier probability blended with 60% embedding cosine similarity, built on RIASEC derived feature engineering and K-Means segmentation, with automated skill gap analysis and generated learning roadmaps. Shipped and documented across four phases.
 
-</td>
-<td width="50%" valign="top">
+`Python` `scikit-learn` `sentence-transformers` `pandas`
 
-### ⚙️ Zaaric AI
+[Notebooks](https://www.kaggle.com/code/hamzakamran001/ai-career-recommendation-phase-3) · [Code](https://github.com/hamzakamran01/AI-career-recommendation-model)
 
-AI agency shipping agentic systems for clients across the US and EU — lead-gen automation, internal copilots, and RAG-backed assistants. 10+ production systems delivered to date.
+**Elevated Gears** · 3D product configurator · *private client project*
 
-`LangChain` `OpenAI Agents SDK` `Next.js` `FastAPI`
+Real time WebGL configurator for a manufacturer selling into US and EU markets, with a full GLTF asset pipeline, persisted configurations, and checkout.
 
-**Status:** 🔒 Private client work — case studies available on request
+`React Three Fiber` `Next.js 15` `Prisma` `Stripe`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚴 Elevated Gears Configurator
-
-Real-time 3D product configurator for a B2B bicycle-components manufacturer targeting international buyers. Full WebGL/GLTF rendering pipeline with generative 3D asset sourcing.
-
-`React Three Fiber` `Three.js` `Next.js` `WebGL`
-
-**Status:** 🔒 Private client project
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 AI Career Recommendation Engine
-
-Hybrid recommender over the full O*NET 29.0 occupational taxonomy — 40% classifier probability + 60% embedding cosine similarity — with automated skill-gap analysis and generated learning roadmaps. Published as a research paper and Kaggle notebooks.
-
-`Python` `scikit-learn` `sentence-transformers`
-
-**Status:** 🌐 Public research work
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛠️ FairGig
-
-Income-tracking and advocacy platform for gig workers — built solo-led in a 3-person team during a 24-hour national hackathon (SOFTEC, FAST-NUCES).
-
-`Next.js` `TypeScript` `PostgreSQL (Neon)` `Tailwind`
-
-**Status:** 🌐 Hackathon project
-
-</td>
-<td width="50%" valign="top">
-
-### 📌 Want the code behind Sehat or Zaaric?
-
-Most client and product work is under NDA or pre-launch, so it is not public — but I document the architecture, decisions, and outcomes clearly. Reach out and I will walk you through the system design directly.
-
-**Status:** 📄 Case studies available on request
-
-</td>
-</tr>
-</table>
-
-<br>
+Enterprise work I cannot open source includes a HIPAA compliant clinical trials platform for a US pharmacy operator and a multi region luxury e-commerce system processing over €2M per month. Architecture and tradeoffs are documented on my side, and I am glad to walk through the system design directly.
 
 ## Stack
 
-<div align="center">
-
-**Languages & Core** <br> <img src="https://skillicons.dev/icons?i=py,ts,js,cpp" />
-
-**AI / ML** <br> <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
-**Backend & Infra** <br> <img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,supabase,docker" />
-
-**Frontend & 3D** <br> <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs" />
-
-</div>
-
-<br>
-
-## GitHub Stats
-
-<div align="center">
-
-<img
-height="165"
-src="https://github-readme-stats.vercel.app/api?username=hamzakamran01&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800"
-/> <img
-height="165"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamzakamran01&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800"
-/>
-
-<br><br>
-
-<img
-src="https://streak-stats.demolab.com/?user=hamzakamran01&theme=tokyonight&hide_border=true"
-/>
-
-</div>
-
-> Note: these widgets only read public activity. Most of the output above is a fraction of actual work, since production work sits in private repos.
-
-<br>
+| | |
+|---|---|
+| **Languages** | Python, TypeScript, JavaScript, SQL, Kotlin |
+| **AI** | OpenAI Agents SDK, Claude API, LangChain, MCP, pgvector, RAG, sentence-transformers |
+| **Backend** | FastAPI, NestJS, Node.js, PostgreSQL, Redis, Supabase, RabbitMQ |
+| **Frontend and 3D** | Next.js, React, Tailwind, Three.js, React Three Fiber |
+| **Infra** | Docker, AWS, Vercel, GitHub Actions |
 
 ## Recognition
 
-* 🏅 **Qimam Fellow**, Class of 2025 — top 0.3% nationally, McKinsey-vetted
-* 🏛️ **Punjab Delegate**, National Youth Summit 2025
-* 🧑‍💼 **President**, FCIT Developers Club
-* 🗣️ **Associate Secretary**, University of Punjab Debating Society — national-level debater, 2 years
+- Qimam Fellow 2025, a McKinsey vetted selection of 38 fellows nationally
+- Punjab Delegate, National Youth Summit 2025
 
-<br>
+## Contact
 
-## Connect
+**[hamzakamran.tech](https://hamzakamran.tech)** is the fastest way to see the full picture.
 
-<div align="center">
-
-<a href="https://linkedin.com/in/hamza-kamran-7b1a85294"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://hamza-portfolio-mocha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waves&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+[LinkedIn](https://www.linkedin.com/in/hamza-kamran-7b1a85294) · hamzakamran843@gmail.com
