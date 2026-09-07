@@ -44,7 +44,7 @@ Real time WebGL configurator for a manufacturer selling into US and EU markets, 
 
 `React Three Fiber` `Next.js 15` `Prisma` `Stripe`
 
-Enterprise work I cannot open source includes a HIPAA compliant clinical trials platform for a US pharmacy operator and a multi region luxury e-commerce system processing over €2M per month. Architecture and tradeoffs are documented on my side, and I am glad to walk through the system design directly.
+Enterprise work I cannot open source includes a HIPAA compliant clinical trials platform for a US pharmacy operator and a multi region luxury e-commerce system. Architecture and tradeoffs are documented on my side, and I am glad to walk through the system design directly.
 
 ## Stack
 
