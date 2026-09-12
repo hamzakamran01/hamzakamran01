@@ -6,7 +6,7 @@ My bias is toward systems that survive contact with production: grounded retriev
 
 - Architecting HealthDost's contextual memory layer: tiered profile compilation, fact supersession chains, and multi-session RAG chat
 - Leading delivery and US market expansion at Zaaric
-- Operations team, Qimam Fellowship Pakistan 2026, and mentor to the 2026 cohort
+- Operations team, Qimam Fellowship Pakistan 2026
 
 ## Selected work
 
