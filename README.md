@@ -13,6 +13,7 @@ My bias is toward systems that survive contact with production: grounded retriev
 **HealthDost** · AI health memory platform · *private, doing MVP testing with users for product validation*
 
 Ingests medical documents, including scanned and hybrid records, through a vision triage, extraction, and structured parsing pipeline, then commits them to a pgvector event timeline that answers patient questions over RAG with strict anti-hallucination grounding. A separate trend engine evaluates 14 biomarkers against deterministic threshold rules and escalates alerts with no LLM in the decision path, so the model explains the finding but never decides it.
+
 [Live](https://ai-health-memory.vercel.app)
 
 `Next.js 16` `Supabase + pgvector` `GPT-4o` `LangChain` `Vercel Cron`
