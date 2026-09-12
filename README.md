@@ -25,7 +25,7 @@ Ingests medical documents, including scanned and hybrid records, through a visio
 
 **Digital Queue Management Platform** · *live since September 2024*
 
-Real time queue orchestration for multi branch operations. Cut average customer wait time by 67%, GDPR compliant, WebSocket driven, running continuously since launch.
+Real time queue orchestration for multi branch operations. Cut average customer wait time by 67%, GDPR compliant, WebSocket driven, running continuously since launch. Real power lies in the admin Dashboard with deep data analytics and intelligence. Its demo version with dummy data is live on Vercel, given below.
 
 `NestJS` `React` `PostgreSQL` `Redis` `AWS`
 
